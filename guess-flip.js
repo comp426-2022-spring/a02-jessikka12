@@ -1,12 +1,15 @@
 // import functions
 import * as coin from  "./modules/coin.mjs";
+import minimist from 'minimist';
 
 // take call argument
-const args = require('minimist')(process.argv.slice(2));
+const args = minimist(process.argv.slice(2));
 args['call'];
 
+const call = args.call;
+
 // error if call is wrong
-if (args.call != "heads" || args.call != "tails") {
+if (args.call != "tails" && args.call != "heads") {
     console.log("Error: no input");
 } else {
 
