@@ -9,6 +9,6 @@ args['number'];
 const number = args.number || 1;
 
 // flip coins
-const flips = coin.coinFlips(args.number);
+const flips = coin.coinFlips(number);
 console.log(flips);
 console.log(coin.countFlips(flips))

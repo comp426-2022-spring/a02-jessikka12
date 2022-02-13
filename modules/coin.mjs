@@ -49,7 +49,6 @@ function coinFlips(flips) {
   }
   return results;
 }
-console.log(coinFlips(10));
 
 /** Count multiple flips
  * 
