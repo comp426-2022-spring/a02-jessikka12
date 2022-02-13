@@ -11,6 +11,7 @@ const call = args.call;
 // error if call is wrong
 if (args.call != "tails" && args.call != "heads") {
     console.log("Error: no input");
+    console.log("Usage: node guess-flip --call=[heads|tails]")
 } else {
 
     console.log(coin.flipACoin(args.call));
