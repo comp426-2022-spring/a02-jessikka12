@@ -43,12 +43,13 @@ function coinFlip() {
  */
 
 function coinFlips(flips) {
-  const results = [];
+  var results = [];
   for (let i = 0; i < flips; i++) {
     results.push(coinFlip());
   }
   return results;
 }
+console.log(coinFlips(10));
 
 /** Count multiple flips
  * 
