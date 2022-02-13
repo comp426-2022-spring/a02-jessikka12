@@ -11,4 +11,4 @@ const number = args.number || 1;
 // flip coins
 const flips = coin.coinFlips(args.number);
 console.log(flips);
-console.lot(coin.countFlips(flips))
+console.log(coin.countFlips(flips))
